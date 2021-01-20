@@ -44,3 +44,6 @@ article {
         }
     }
 }
+li {
+    @include gradient;
+}

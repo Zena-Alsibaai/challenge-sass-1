@@ -12,3 +12,13 @@
     box-shadow: 10px 10px 15px -4px $color;
 }
 //@include box-shadow($primary-color);
+
+@mixin gradient {
+    @for $i from 0 through 6 {
+        &:nth-child(#{$i}) {
+            background-color: lighten($quaternary-color, $i * 5%);
+            color: lighten($octonary-color, $i * 10%);
+        }
+    }
+}
+//@include gradient;

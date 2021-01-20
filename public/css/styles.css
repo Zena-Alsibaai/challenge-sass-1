@@ -100,4 +100,33 @@ article code .after {
   float: right;
 }
 
+li:nth-child(0) {
+  background-color: green;
+  color: black;
+}
+li:nth-child(1) {
+  background-color: #009a00;
+  color: #1a1a1a;
+}
+li:nth-child(2) {
+  background-color: #00b300;
+  color: #333333;
+}
+li:nth-child(3) {
+  background-color: #00cd00;
+  color: #4d4d4d;
+}
+li:nth-child(4) {
+  background-color: #00e600;
+  color: #666666;
+}
+li:nth-child(5) {
+  background-color: #01ff01;
+  color: gray;
+}
+li:nth-child(6) {
+  background-color: #1aff1a;
+  color: #999999;
+}
+
 /*# sourceMappingURL=styles.css.map */
