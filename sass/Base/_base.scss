@@ -1,0 +1,15 @@
+//Base
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 100% "Space Mono", monospace;
+    color: $primary-color;
+    background-color: $secondary-color;
+    overflow-x: hidden;
+}
+

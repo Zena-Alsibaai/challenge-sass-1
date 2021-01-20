@@ -1,0 +1,12 @@
+//Typography
+h1, h2, h3 {
+    color: $tertiary-color;
+}
+h1, h3 {
+    text-align: center;
+}
+h3 {
+    font-size: 1.5em;
+    padding: 32px;
+    margin-bottom: 0px;
+}

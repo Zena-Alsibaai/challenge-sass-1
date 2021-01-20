@@ -1,0 +1,26 @@
+// Composants divers
+
+.messages {
+    padding: 16px;
+}
+%message_style {
+    border: 1px solid $septenary-color;
+    color: $secondary-color;
+    padding: 16px;
+}
+.success {
+    @extend %message_style;
+    background-color: $quaternary-color;
+}
+.error {
+    @extend %message_style;
+    background-color: $quinary-color;
+    &:hover {
+        background-color: $quaternary-color;
+        transition: background-color .4s;
+    }
+}
+.warning {
+    @extend %message_style;
+    background-color: $senary-color;
+}
