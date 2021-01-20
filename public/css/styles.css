@@ -30,7 +30,7 @@ h3 {
   padding: 16px 16px;
 }
 
-.warning, .error, .success {
+.success, .error, .warning {
   border: 1px solid #8C8C8C;
   color: #fff;
   padding: 16px 16px;

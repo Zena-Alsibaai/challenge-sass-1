@@ -8,12 +8,13 @@
     color: $secondary-color;
     @include padding(1, 1);
 }
-.success {
+.success, .error, .warning {
     @extend %message_style;
+}
+.success {
     background-color: $quaternary-color;
 }
 .error {
-    @extend %message_style;
     background-color: $quinary-color;
     &:hover {
         background-color: $quaternary-color;
@@ -21,6 +22,5 @@
     }
 }
 .warning {
-    @extend %message_style;
     background-color: $senary-color;
 }
