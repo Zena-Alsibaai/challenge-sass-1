@@ -1,5 +1,5 @@
 main {
-    padding: 0 1em;
+    @include padding(0, 1);
 }
 article {
     display: flex;
@@ -8,10 +8,8 @@ article {
         flex-grow: 1;
         flex-basis: 45%;
         border: 1px $septenary-color solid;
-        -webkit-box-shadow: 10px 10px 15px -4px $primary-color;
-        -moz-box-shadow: 10px 10px 15px -4px $primary-color;
-        box-shadow: 10px 10px 15px -4px $primary-color;
-        padding: 16px;
+        @include box-shadow($primary-color);
+        @include padding(1, 1);
         margin: 16px;
         clear: both;
         overflow: auto;
@@ -32,7 +30,7 @@ article {
         margin-bottom: 1.6em;
         max-width: 100%;
         overflow: auto;
-        padding: 1em 1.5em;
+        @include padding(1, 1.5);
         display: block;
         word-wrap: break-word;
         .before, .after {

@@ -1,2 +1,14 @@
 // Mixins
 
+@mixin padding($toptom ,$side){
+    padding: 16px*$toptom 16px*$side;
+}
+//@include padding(1, 1);
+//@include padding(2, 2);
+//@include padding(0, 1);
+//@include padding(1, 1.5);
+
+@mixin box-shadow($color) {
+    box-shadow: 10px 10px 15px -4px $color;
+}
+//@include box-shadow($primary-color);

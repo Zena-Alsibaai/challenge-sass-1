@@ -1,12 +1,12 @@
 // Composants divers
 
 .messages {
-    padding: 16px;
+    @include padding(1, 1);
 }
 %message_style {
     border: 1px solid $septenary-color;
     color: $secondary-color;
-    padding: 16px;
+    @include padding(1, 1);
 }
 .success {
     @extend %message_style;

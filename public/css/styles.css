@@ -2,7 +2,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   margin: 0;
-  padding: 0;
+  padding: 0px 0px;
 }
 
 body {
@@ -22,18 +22,18 @@ h1, h3 {
 
 h3 {
   font-size: 1.5em;
-  padding: 32px;
+  padding: 32px 32px;
   margin-bottom: 0px;
 }
 
 .messages {
-  padding: 16px;
+  padding: 16px 16px;
 }
 
 .warning, .error, .success {
   border: 1px solid #8C8C8C;
   color: #fff;
-  padding: 16px;
+  padding: 16px 16px;
 }
 
 .success {
@@ -53,7 +53,7 @@ h3 {
 }
 
 main {
-  padding: 0 1em;
+  padding: 0px 16px;
 }
 
 article {
@@ -64,10 +64,8 @@ article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px #8C8C8C solid;
-  -webkit-box-shadow: 10px 10px 15px -4px #6b717f;
-  -moz-box-shadow: 10px 10px 15px -4px #6b717f;
   box-shadow: 10px 10px 15px -4px #6b717f;
-  padding: 16px;
+  padding: 16px 16px;
   margin: 16px;
   clear: both;
   overflow: auto;
@@ -88,7 +86,7 @@ article code {
   margin-bottom: 1.6em;
   max-width: 100%;
   overflow: auto;
-  padding: 1em 1.5em;
+  padding: 16px 24px;
   display: block;
   word-wrap: break-word;
 }
